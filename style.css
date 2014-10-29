@@ -1,0 +1,144 @@
+body{
+    font-family: candara;
+    background-color: #292929;
+}
+
+#title{
+    font-size: 45px;
+    color: #fff;
+    font-family: Lato;
+}
+
+#bg{
+    background-color:#292929;
+    height: 171px;
+    position: absolute;
+    width: 963px;
+    padding-left: 10px;
+    margin: 5px;
+    margin-top: 25px;
+}
+
+#bg.clicked{
+   background-color: #F2F2F2; 
+   border: none;
+}
+
+#btn{
+    margin: 342px;
+    margin-top: 218px;
+    width: 108px;
+}
+
+.white{
+    padding:2px 5px;
+    color: white;
+    visibility: hidden;
+}
+
+.white.clicked{
+    padding:2px 5px;
+    visibility: visible;
+    color: white;
+}
+
+.black{
+    padding:2px 5px;
+    visibility: hidden;
+}
+
+.black.clicked{
+    padding:2px 5px;
+    visibility: visible;
+    color: black;
+}
+
+#bg.unclicked{
+    background-color:green;
+    height: 171px;
+    position: absolute;
+    width: 963px;
+    padding-left: 10px;
+    margin: 5px;
+    margin-top: 25px;
+}
+
+#textBtn{
+    margin: 342px;
+    margin-top: 269px;
+    width: 138px;
+}
+
+.btn{
+    background-color:#ea5d5d;
+    height: 30px;
+    position: absolute;
+    padding-top:.1%;
+    padding-left: 10px;
+    cursor: pointer;
+    font-family:Lato;
+    font-size:22px;
+    border: solid #fff 2px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.btn:hover{
+    background-color:#EFB64C;
+}
+
+#logo {
+ float:left;
+ width:74px;
+ height:185px;
+ z-index: 99;
+ background:url(https://gis.co.carver.mn.us/Resources/Images/CCIcon50x64.png) top left no-repeat;
+}
+
+#dblue{
+    background-color: #0E3867;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin: 10px 0px;
+}
+
+#ldblue{
+    background-color: #004894;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin: 10px 160px;
+}
+
+#mag{
+    background-color: #0091CF;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin: 10px 320px;
+}
+
+#grey{
+    background-color: #545454;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin: 10px 480px;
+}
+
+#lightGrey{
+    background-color: #B9B9B9;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin: 10px 640px;
+}
+
+#yellow{
+    background-color: #FFD600;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin: 10px 800px;
+}

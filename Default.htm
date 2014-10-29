@@ -1,0 +1,40 @@
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link href='https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
+  <script src='https://code.jquery.com/jquery-2.1.0.min.js'></script>
+  <script src="//code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+  <script>
+    $(function() {
+      $("#btn").click(function() {
+      $('#bg').toggleClass('clicked', 1500, 'easeOutExpo');
+      });
+      
+      $('#textBtn').click(function(){
+        console.log("CLICKING")
+         $('.white').toggleClass('clicked', 1500, 'easeOutExpo');
+         $('.black').toggleClass('clicked', 1500, 'easeOutExpo');
+      })
+    });
+  </script>
+</head>
+
+<body>
+  <div id='logo'></div>
+  <div id='title'>Carver County Theme</div>
+  <div id='bg'>
+    <div id='dblue'><div class='white'>HEX: #0E3867</br>RGB: 14 56 103</div>
+    </div>
+    <div id='ldblue'><div class='white'>HEX: #004894</br>RGB: 0 72 148</div></div>
+    <div id='mag'><div class='white'>HEX: #0091CF</br>RGB: 0 145 207</div></div>
+    <div id='grey'><div class='white'>HEX: #545454</br>RGB: 84 84 84</div></div>
+    <div id='lightgrey'><div class='black'>HEX: #B9B9B9</br>RGB: 185 185 185</div></div>
+    <div id='yellow'><div class='black'>HEX: #FFD600</br>RGB: 255 214 0</div></div>
+  </div>
+  <div id='btn' class='btn'>Toggle BG</div>
+  <div id='textBtn' class='btn'>Color Values</div>
+</body>
+
+</html>
